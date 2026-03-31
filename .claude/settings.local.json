@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm)",
+      "Read(//c/Users/Asus/Documents/Kodingan/**)",
+      "Bash(npx create-next-app@latest fortofolio-temp --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm)",
+      "Bash(npx create-next-app@latest fortofolio-temp --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack 2)",
+      "Bash(1:*)",
+      "Bash(npx create-next-app@latest fortofolio-temp --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)",
+      "Bash(cp -r /c/Users/Asus/Documents/Kodingan/fortofolio-temp/* /c/Users/Asus/Documents/Kodingan/Fortofolio/)",
+      "Bash(cp -r /c/Users/Asus/Documents/Kodingan/fortofolio-temp/.* /c/Users/Asus/Documents/Kodingan/Fortofolio/)",
+      "Bash(rm -rf /c/Users/Asus/Documents/Kodingan/fortofolio-temp)",
+      "Bash(npm install:*)",
+      "Bash(node -e \"const si = require\\(''react-icons/si''\\); const keys = Object.keys\\(si\\).filter\\(k => k.toLowerCase\\(\\).includes\\(''aws''\\) || k.toLowerCase\\(\\).includes\\(''amazon''\\)\\); console.log\\(keys.slice\\(0, 10\\)\\);\")",
+      "Bash(node -e \"const si = require\\(''react-icons/si''\\); const keys = Object.keys\\(si\\).filter\\(k => k.toLowerCase\\(\\).includes\\(''cloud''\\)\\); console.log\\(keys.slice\\(0, 10\\)\\);\")",
+      "Bash(node -e \"const fa = require\\(''react-icons/fa''\\); const keys = Object.keys\\(fa\\).filter\\(k => k.toLowerCase\\(\\).includes\\(''aws''\\)\\); console.log\\(keys\\);\")",
+      "WebFetch(domain:diotomasi.ai)",
+      "WebFetch(domain:netra.luarsekolah.com)",
+      "Bash(curl -sL \"https://diotomasi.ai/favicon.ico\" -o /c/Users/Asus/Documents/Kodingan/Fortofolio/public/projects/diotomasi-logo.ico)",
+      "Bash(curl -sL \"https://netra.luarsekolah.com/favicon.ico\" -o /c/Users/Asus/Documents/Kodingan/Fortofolio/public/projects/netra-logo.ico)",
+      "Bash(curl -sL --max-time 15 \"https://netra.elgoritma.id/opengraph-image-p98pqg.png\" -o /c/Users/Asus/Documents/Kodingan/Fortofolio/public/projects/netra-og.png)",
+      "Bash(curl -sL --max-time 15 \"https://diotomasi.ai/favicon-96x96.png\" -o /c/Users/Asus/Documents/Kodingan/Fortofolio/public/projects/diotomasi-icon.png)",
+      "Bash(curl -v --max-time 15 \"https://netra.luarsekolah.com/favicon.ico\" -o /c/Users/Asus/Documents/Kodingan/Fortofolio/public/projects/netra-icon.ico)"
+    ]
+  }
+}
