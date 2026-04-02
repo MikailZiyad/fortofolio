@@ -74,7 +74,8 @@ export default function Education() {
                         alt={item.institution}
                         width={32}
                         height={32}
-                        className="w-8 h-8"
+                        className="w-8 h-8 object-contain"
+                        unoptimized
                       />
                     ) : (
                       <item.icon size={24} />
