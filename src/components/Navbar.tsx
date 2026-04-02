@@ -24,10 +24,13 @@ export default function Navbar() {
       setIsScrolled(window.scrollY > 50);
 
       const sections = navLinks.map((l) => l.href.slice(1));
-      for (const id of sections.reverse()) {
+      for (const id of [...sections].reverse()) {
         const el = document.getElementById(id);
         if (el && el.getBoundingClientRect().top <= 150) {
           setActiveSection(id);
+          if (window.location.hash !== `#${id}`) {
+            window.history.replaceState(null, "", `#${id}`);
+          }
           break;
         }
       }
