@@ -1,0 +1,16 @@
+<svg viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top left curve -->
+  <path d="M 30 40 Q 30 100 80 140 L 80 70 Q 60 50 35 40 Z" fill="#FF3333"/>
+  
+  <!-- Top right curve -->
+  <path d="M 250 40 Q 275 50 245 70 L 245 140 Q 295 100 250 40 Z" fill="#FF3333"/>
+  
+  <!-- Bottom left curve -->
+  <path d="M 30 240 Q 30 180 80 140 L 80 210 Q 60 230 35 240 Z" fill="#FF3333"/>
+  
+  <!-- Bottom right curve -->
+  <path d="M 250 240 Q 275 230 245 210 L 245 140 Q 295 180 250 240 Z" fill="#FF3333"/>
+  
+  <!-- Text: bangkit -->
+  <text x="140" y="270" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">bangkit</text>
+</svg>

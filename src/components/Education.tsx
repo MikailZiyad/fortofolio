@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import AnimatedSection from "./AnimatedSection";
 import { HiAcademicCap, HiBadgeCheck } from "react-icons/hi";
+import Image from "next/image";
 
 const education = [
   {
@@ -13,6 +14,7 @@ const education = [
     description:
       "Mendalami bidang sistem informasi, rekayasa perangkat lunak, jaringan komputer, dan teknologi informasi modern.",
     icon: HiAcademicCap,
+    logo: "/logos/upi.png",
   },
   {
     type: "program",
@@ -22,6 +24,7 @@ const education = [
     description:
       "Program intensif Machine Learning yang mencakup TensorFlow, data analytics, dan deployment model ML ke production.",
     icon: HiAcademicCap,
+    logo: "/logos/bangkit.png",
   },
 ];
 
@@ -65,7 +68,17 @@ export default function Education() {
               >
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center text-accent shrink-0 group-hover:bg-accent/20 transition-colors">
-                    <item.icon size={24} />
+                    {item.logo ? (
+                      <Image
+                        src={item.logo}
+                        alt={item.institution}
+                        width={32}
+                        height={32}
+                        className="w-8 h-8"
+                      />
+                    ) : (
+                      <item.icon size={24} />
+                    )}
                   </div>
                   <div>
                     <span className="text-accent font-mono text-xs">
