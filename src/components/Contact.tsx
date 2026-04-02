@@ -14,8 +14,8 @@ const contactInfo = [
   {
     icon: HiMail,
     label: "Email",
-    value: "hello@example.com",
-    href: "mailto:hello@example.com",
+    value: "muhammadmikailziyad@gmail.com",
+    href: "mailto:muhammadmikailziyad@gmail.com",
   },
   {
     icon: HiLocationMarker,
